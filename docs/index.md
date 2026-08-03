@@ -5,10 +5,13 @@ Research, experiments and technical documentation on clustering algorithms.
 **Machine Learning Bootcamp · Task 5**  
 **Author: Gaby Granja**
 
-> [!NOTE]
-> Built under questionable air conditioning.  
-> Barcelona Summer 2026 · AI Bootcamp  
-> 🎧 Playlist: **git push, don't panic**
+*Barcelona · Summer 2026*
+
+Research sometimes needs silence.
+Sometimes it needs music.
+
+🎧 **Project soundtrack:**  
+[git push, don't panic](https://open.spotify.com/playlist/2YD1yp1PxdlyK4xFc0HF07)
 
 ## About This Project
 
@@ -85,3 +88,17 @@ The experiment also includes:
 ## Start Reading
 
 Continue with [Fundamentals](fundamentals.md).
+
+## Additional Resources
+
+### Project Soundtrack
+
+Some projects deserve a soundtrack.
+
+If you'd like to experience the same atmosphere that accompanied the research, documentation and experiments, you can listen to the project's playlist:
+
+🎧 **git push, don't panic**
+
+https://open.spotify.com/playlist/2YD1yp1PxdlyK4xFc0HF07
+
+> Built during the AI Bootcamp, one commit at a time.

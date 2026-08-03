@@ -1,7 +1,54 @@
+site_name: Clustering Research Lab
+site_description: Research, experiments and technical documentation on clustering algorithms
+site_author: Gaby Granja
+site_url: https://bootcamp-ia-mad-p7.github.io/clustering-research-lab/
+
+repo_name: Bootcamp-IA-MAD-P7/clustering-research-lab
+repo_url: https://github.com/Bootcamp-IA-MAD-P7/clustering-research-lab
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: slate
+      primary: black
+      accent: blue grey
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
 nav:
-  - Inicio: index.md
-  - Fundamentos: fundamentals.md
-  - Enfoques de clustering: clustering-approaches.md
-  - Algoritmos: algorithms.md
-  - Evaluación: evaluation.md
-  - Conclusiones: conclusions.md
+  - Home: index.md
+  - Fundamentals: fundamentals.md
+  - Clustering Approaches: clustering-approaches.md
+  - Algorithms: algorithms.md
+  - Evaluation: evaluation.md
+  - Conclusions: conclusions.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - stylesheets/extra.css
