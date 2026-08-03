@@ -1,53 +1,87 @@
 # Clustering Research Lab
 
-Bienvenido a la documentación del proyecto.
+Research, experiments and technical documentation on clustering algorithms.
 
-Este laboratorio combina una investigación teórica sobre algoritmos de clustering con pequeños experimentos prácticos y funcionalidades de documentación de GitHub.
+**Machine Learning Bootcamp · Task 5**  
+**Author: Gaby Granja**
 
-## Contenido
+> [!NOTE]
+> Built under questionable air conditioning.  
+> Barcelona Summer 2026 · AI Bootcamp  
+> 🎧 Playlist: **git push, don't panic**
 
-- Fundamentos del aprendizaje no supervisado
-- Tipos de clustering
-- Evaluación de agrupamientos
-- Comparación de algoritmos
-- Experimentos visuales
+## About This Project
+
+This project explores the foundations of unsupervised learning and compares four representative clustering algorithms:
+
+- K-Means
+- Agglomerative Clustering
+- DBSCAN
+- Gaussian Mixture Models
+
+The repository combines theoretical research, visual experiments and technical documentation.
+
+## Documentation
+
+| Section | Content |
+|---|---|
+| [Fundamentals](fundamentals.md) | Unsupervised learning and clustering concepts |
+| [Clustering Approaches](clustering-approaches.md) | Centroid-based, hierarchical and density-based methods |
+| [Algorithms](algorithms.md) | Mechanisms, advantages, limitations and applications |
+| [Evaluation](evaluation.md) | Elbow Method, Silhouette Score and hyperparameter selection |
+| [Conclusions](conclusions.md) | Final comparison and practical recommendations |
+
+## Clustering Landscape
 
 ```mermaid
 flowchart LR
-    A[Dataset] --> B[Preprocesamiento]
-    B --> C[K-Means]
-    B --> D[Jerárquico]
-    B --> E[DBSCAN]
-    B --> F[GMM]
-q
+    A[Dataset] --> B[Centroid-Based]
+    A --> C[Hierarchical]
+    A --> D[Density-Based]
+    A --> E[Probabilistic]
 
-## Configurar MkDocs
+    B --> F[K-Means]
+    C --> G[Agglomerative]
+    D --> H[DBSCAN]
+    E --> I[GMM]
+```
 
-```bash
-cat > mkdocs.yml <<'EOF'
-site_name: Clustering Research Lab
-site_description: Investigación y experimentación sobre algoritmos de clustering
-repo_name: clustering-research-lab
+## Practical Experiment
 
-theme:
-  name: material
-  language: es
+The project includes a reproducible Jupyter Notebook comparing the four clustering algorithms on the same synthetic dataset.
 
-nav:
-  - Inicio: index.md
-  - Fundamentos: fundamentals.md
-  - Algoritmos: algorithms.md
-  - Evaluación: evaluation.md
-  - Conclusiones: conclusions.md
+The experiment also includes:
 
-markdown_extensions:
-  - admonition
-  - tables
-  - toc:
-      permalink: true
-  - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+- Elbow Method
+- Silhouette Score
+- Generated cluster visualizations
+- Three-dimensional PCA visualization with the Iris dataset
+
+## Project Structure
+
+```text
+.
+├── docs/
+├── images/
+├── notebooks/
+├── README.md
+├── mkdocs.yml
+└── requirements.txt
+```
+
+## Technologies
+
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- Markdown
+- Mermaid
+- MkDocs Material
+- Git and GitHub
+
+## Start Reading
+
+Continue with [Fundamentals](fundamentals.md).
