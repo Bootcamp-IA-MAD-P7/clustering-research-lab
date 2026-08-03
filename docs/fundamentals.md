@@ -1,10 +1,42 @@
 # Fundamentals
 
+> **Estimated reading time:** 4 min  
+> **Prerequisites:** None  
+> **Related topics:** Clustering, Machine Learning
+
+---
+
+## Overview
+
+Unsupervised Learning is a branch of Machine Learning that analyzes **unlabeled data**. Instead of predicting known outcomes, algorithms discover hidden structures, similarities and relationships within a dataset.
+
+One of its most common applications is **clustering**, where observations are automatically grouped according to their similarity.
+
+---
+
+## Learning Objectives
+
+After reading this section you will be able to:
+
+- Understand the concept of Unsupervised Learning.
+- Explain what clustering is.
+- Differentiate supervised and unsupervised learning.
+- Identify common clustering applications.
+
+---
+
 ## What is Unsupervised Learning?
 
-Unsupervised Learning is a branch of Machine Learning that works with **unlabeled data**. Instead of learning from predefined outputs, algorithms identify hidden patterns, relationships and structures within the dataset.
+Unlike Supervised Learning, where models learn from labeled examples, Unsupervised Learning receives data without predefined answers.
 
-One of the most common unsupervised learning tasks is **clustering**, where observations are grouped according to their similarity.
+The algorithm explores the dataset to discover patterns that may not be immediately visible.
+
+Typical objectives include:
+
+- Finding natural groups
+- Detecting anomalies
+- Reducing dimensionality
+- Discovering hidden relationships
 
 ---
 
@@ -14,25 +46,25 @@ One of the most common unsupervised learning tasks is **clustering**, where obse
 |----------------------|-----------------------|
 | Uses labeled data | Uses unlabeled data |
 | Predicts known outcomes | Discovers hidden patterns |
-| Classification and Regression | Clustering and Dimensionality Reduction |
+| Classification & Regression | Clustering & Dimensionality Reduction |
 | Requires ground truth | No ground truth required |
 
 ---
 
 ## What is Clustering?
 
-Clustering is an unsupervised learning technique that automatically groups similar observations into clusters while maximizing the differences between groups.
+Clustering is an unsupervised learning technique that groups similar observations into clusters while maximizing the differences between groups.
 
-The objective is to reveal the natural structure of the data without prior knowledge of the expected categories.
+Unlike classification, the algorithm does not know the categories beforehand. Instead, it discovers the underlying structure directly from the data.
 
-Typical applications include:
+Common applications include:
 
 - Customer segmentation
 - Fraud detection
 - Recommendation systems
 - Image segmentation
-- Market analysis
 - Biological data analysis
+- Market research
 
 ---
 
@@ -41,24 +73,42 @@ Typical applications include:
 ```mermaid
 flowchart TD
 
-A[Machine Learning]
+ML[Machine Learning]
 
-A --> B[Supervised Learning]
-A --> C[Unsupervised Learning]
+ML --> SL[Supervised Learning]
+ML --> UL[Unsupervised Learning]
 
-B --> D[Classification]
-B --> E[Regression]
+SL --> CLS[Classification]
+SL --> REG[Regression]
 
-C --> F[Clustering]
-C --> G[Dimensionality Reduction]
-C --> H[Anomaly Detection]
+UL --> CLU[Clustering]
+UL --> DR[Dimensionality Reduction]
+UL --> AD[Anomaly Detection]
 ```
+
+---
+
+## Key Concepts
+
+| Concept | Description |
+|---------|-------------|
+| Observation | A single data sample. |
+| Feature | A measurable attribute describing an observation. |
+| Cluster | A group of similar observations. |
+| Similarity | Degree of resemblance between observations. |
+| Distance Metric | Mathematical measure used to compare observations. |
 
 ---
 
 ## Key Takeaways
 
 - Unsupervised Learning works with unlabeled datasets.
-- Clustering groups similar observations.
-- There is no predefined "correct answer".
-- The goal is discovering patterns rather than making predictions.
+- Clustering discovers natural groupings within data.
+- No predefined "correct answer" exists.
+- The quality of the results depends on both the data and the selected algorithm.
+
+---
+
+## Next
+
+Continue with **Clustering Approaches**, where centroid-based, hierarchical and density-based clustering techniques are introduced.
