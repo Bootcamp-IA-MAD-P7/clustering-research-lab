@@ -5,6 +5,12 @@ Research, experiments, and technical documentation on clustering algorithms.
 **Machine Learning Bootcamp · Task 5**<br>
 **Author: Gaby Granja**
 
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-111111)](https://bootcamp-ia-mad-p7.github.io/clustering-research-lab/)
+[![Release](https://img.shields.io/badge/release-v1.0.0-333333)](https://github.com/Bootcamp-IA-MAD-P7/clustering-research-lab/releases/tag/v1.0.0)
+[![Python](https://img.shields.io/badge/Python-3.13-222222)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-444444)](LICENSE)
+[![Made with MkDocs](https://img.shields.io/badge/docs-MkDocs%20Material-000000)](https://www.mkdocs.org/)
+
 ## Project Overview
 
 Clustering Research Lab is an academic Machine Learning project focused on the foundations and practical application of unsupervised learning. It combines structured technical documentation with a reproducible Jupyter Notebook that compares four representative clustering algorithms on synthetic data and explores a three-dimensional projection of the Iris dataset.
