@@ -1,0 +1,7 @@
+nav:
+  - Inicio: index.md
+  - Fundamentos: fundamentals.md
+  - Enfoques de clustering: clustering-approaches.md
+  - Algoritmos: algorithms.md
+  - Evaluación: evaluation.md
+  - Conclusiones: conclusions.md
